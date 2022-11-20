@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test  </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body onload="notesList()">
+        <div class="jumbotron text-center">
+          <h1>Notes</h1> 
+        </div>
+        <div class="container-fluid w-25">  
+            <div class="input-group mb-1 justify-content-center ">
+               <input placeholder="Enter a your note" id="inputNote" class="input-group-prepend flex-colunm col "/>
+               <input  class="btn btn-dark btn-group-text offset-md-0 " type="button" id="addBtn" value="Add"  >
+            </div>
+            <div id="listOut" class="list-group"></div>
+        </div>
+        <div id="emptyList" class="text-center"></div>
+    </body>
+  <script src="app.js"></script>
+</html>
